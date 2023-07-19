@@ -1,0 +1,30 @@
+{
+  "name": "rocket-q",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usúarios direcionadas ao dono da página. Projeto desenvolvidona semana NLW Rocketseat na missão discover.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasvitalmelo/rocket-q.git"
+  },
+  "keywords": [],
+  "author": "Lucas Vital de Melo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasvitalmelo/rocket-q/issues"
+  },
+  "homepage": "https://github.com/lucasvitalmelo/rocket-q#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
